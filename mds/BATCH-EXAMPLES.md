@@ -47,7 +47,7 @@ You'll get :
 
 ----
 
-## Point CSV
+# Point CSV
 
 The geometry column in `invalid-point.csv` is named `_geom`
 
@@ -67,7 +67,9 @@ And you get :
     2 : ymin too low. ymin (42.682602) is inferior to ymin bounds (43.075600)
     3 : 3 equals 1 (duplicates)
 
-## Mixed Data CSV
+----
+
+# Mixed Data CSV
 
 The CSV contains polygon and point Data.  
 The schema contains this geometry type specification :
